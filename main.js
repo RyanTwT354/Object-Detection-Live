@@ -18,7 +18,7 @@ document.getElementById("status").innerHTML = "status detecting objects";
 }
 
 function modelLoaded() {
-    console.log(modelLoaded);
+    console.log("modelLoaded");
     status = true;
     
 }
