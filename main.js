@@ -35,7 +35,7 @@ function gotResults(error, results) {
 }
 
 function draw() {
-image(video, 0,0,500,500)
+image(video,0,0,500,500)
 if(status !="") {
     ObjectDector.detect(video, gotResults);
     for(var i=0; i < objects.length; i++) {
